@@ -1,0 +1,74 @@
+/* Add this in your global or sidebar CSS */
+:root {
+  --navbar-height: 60px; /* Define the height of your navbar here */
+}
+
+/* Sidebar CSS */
+.sidebar {
+  width: 250px;
+  background: #555555; /*dark steel blue  */
+  color: white;
+  height: calc(100vh - var(--navbar-height)); /* Adjust to account for the navbar */
+  padding: 30px 0;
+  position: fixed;
+  top: calc(var(--navbar-height) + 20px); /* Move sidebar 20px down */
+  left: 0;
+  overflow-y: auto; /* Enable scrolling when content overflows */
+}
+
+.sidebar-title {
+  padding: 0 20px;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+}
+
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-item {
+  margin-bottom: 5px;
+}
+
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+
+
+.sidebar-icon {
+  margin-right: 10px;
+  font-size: 1rem;
+}
+
+.sidebar-arrow {
+  margin-left: auto;
+  font-size: 0.8rem;
+}
+
+.dropdown-menu {
+  list-style: none;
+  padding: 0;
+  background: #555555;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.dropdown-link {
+  display: block;
+  padding: 10px 20px 10px 40px;
+  color: #ecf0f1;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.dropdown-link:hover {
+  background: #4682B4;
+}

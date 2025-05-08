@@ -1,0 +1,27 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* Disable scrolling */
+  font-family: Arial, sans-serif;
+}
+
+
+
+/* Footer */
+.footer {
+  background-color: #a52a2a;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 40px; /* Fixed height */
+}

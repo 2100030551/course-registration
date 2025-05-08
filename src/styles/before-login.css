@@ -1,0 +1,24 @@
+
+
+/* Toast Notifications */
+.Toastify__progress-bar {
+  background-color: white !important;
+}
+
+.Toastify__close-button {
+  background: none !important;
+  box-shadow: none !important;
+  color: inherit;
+  border: none;
+}
+
+.Toastify__toast {
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
+
+.Toastify__toast--success {
+  background-color: #4caf50 !important;
+  color: white !important;
+}
+
